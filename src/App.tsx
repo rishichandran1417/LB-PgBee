@@ -199,7 +199,6 @@ export default function App() {
                 
                 <div className="flex flex-col">
                   <span className="text-lg font-bold text-slate-900 leading-tight">{item.name}</span>
-                  <span className="text-xs font-medium text-slate-400 uppercase tracking-wide">{item.jobTitle}</span>
                 </div>
               </div>
 
@@ -220,9 +219,7 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="mt-auto py-8 text-center text-xs text-slate-400 font-medium">
-        <span className="opacity-50">Powered by PgBee HR Systems</span>
-      </footer>
+      
     </div>
   );
 }
