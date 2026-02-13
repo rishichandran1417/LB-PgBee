@@ -18,11 +18,11 @@ export default function App() {
   
   // Default Mock Data (Shown if no Sheet URL is provided)
   const [leaderboardItems, setLeaderboardItems] = useState<LeaderboardEntry[]>([
-    { id: 1, name: 'loading...', rank: '1', score: 00 },
-    { id: 2, name: 'loading...', rank: '2', score: 00 },
-    { id: 3, name: 'loading...', rank: '3', score: 00 },
-    { id: 4, name: 'loading...',  rank: '4', score: 00 },
-    { id: 5, name: 'loading...', rank: '5', score: 00 }
+    { id: 1, name: 'loading...', rank: '1', score: 0 },
+    { id: 2, name: 'loading...', rank: '2', score: 0 },
+    { id: 3, name: 'loading...', rank: '3', score: 0 },
+    { id: 4, name: 'loading...',  rank: '4', score: 0 },
+    { id: 5, name: 'loading...', rank: '5', score: 0 }
   ]);
 
  const parseCSV = (text: string): LeaderboardEntry[] => {
